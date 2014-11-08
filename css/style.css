@@ -1,0 +1,392 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic);
+body{margin:0;
+font-family: 'roboto', Arial, Helvetica, sans-serif;}
+img {border:none;}
+a{text-decoration:none;}
+.geral{ 
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+#topo{
+	height:190px;
+}
+#redes-sociais{
+	margin-top:-100px;
+	float:right;
+
+}
+#redes-sociais img{
+	margin: 5px 12px 0 12px;;
+	}
+#faixa{
+	background-color:  #d3d3d3;
+	width:100%;
+	height:334px;
+	position:absolute;
+	top:230px;
+	z-index:-1;
+	
+	}
+#faixa2{
+	background-color:#1C4D8C;
+	width:100%;
+	height:26px;
+	border-bottom: solid 6px #d3d3d3;
+	}
+#faixa3{
+	background-color:#004c8f;
+	border-top: solid 30px #d3d3d3;
+	height:105px;
+	width:100%;
+	position: relative;
+	bottom:0;
+	margin-top:20px;
+	clear:both;
+	}
+#faixa4{
+	background-color: #d3d3d3;
+	width:100%;
+	height:417px;
+	position:absolute;
+	top:230px;
+	z-index:-1;
+	border-top: solid 28px #efefef;
+	}
+#faixa5{
+	background-color: #efefef;
+	width:100%;
+	height:334px;
+	position:absolute;
+	top:230px;
+	z-index:-1;
+	border-top: solid 28px #131e28;
+	}
+#corpo{
+	min-height:700px;
+	clear:both;
+}
+#rodape p{
+	float:left;
+	color:#FFFFFF;
+	font-size:15px;
+	margin-top:40px;
+}
+#rodape img{
+	float:left;
+}
+#obras{
+	width:558px; 
+	height:334px;
+	float:left;
+	margin-bottom:5px;
+}
+#obras img{
+	max-width:558px; 
+	max-height:334px;
+}
+.nav { 
+	margin: 300px 0 5px 5px;
+	position: absolute;
+	z-index:500;}
+#nav a, #s7 strong { 
+	margin: 0 5px; 
+	padding: 1px 5px; 
+	background: #fff;
+	color: #1C4D8C;
+	font-weight:bolder;
+	text-decoration: none;
+	border-radius: 30px;
+	font-size:12px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+}
+#nav a.activeSlide { background: #ea0 }
+#nav a:focus { outline: none; }
+#output { text-align: left; }
+
+#clgaleria{
+	width:166px;;
+	min-height:190px;
+	float:left;
+	margin-top: 38px;
+}
+#clgaleria a{ 
+	text-decoration:none;
+	color:#000000;
+
+}
+#obgaleria {
+	width:730px;
+	float: right;
+	margin-top: 28px;
+}
+#obgaleria a{
+	float:left;
+}
+#obgaleria a img{
+	height:185px;
+	width:325px;
+	margin:2px;
+	margin-right:28px;
+	margin-bottom: 28px;
+	border: solid 4px #8c8d8f;
+	z-index:0; 
+	
+}
+#obgaleria a img.andamento{
+	height:185px;
+	width:325px;
+	margin:2px;
+	margin-right:28px;
+	margin-bottom: 28px;
+	border: solid 4px #1c4d8c;
+	z-index:0; 
+	
+}
+#obgaleria a .tituloimg{
+	position:relative;
+	background-image:url(../img/bg.png);
+	width: 315px;
+	color:#FFFFFF;
+	height:50px;
+	margin-top:-88px;
+	margin-bottom:28px;
+	margin-left:6px;
+	z-index:500;
+	padding:5px;
+	clear:both;
+	//display:none;
+	text-align:center;
+	
+}
+
+#galeria{
+	width:780px;
+	height:500px;
+	position: absolute;
+	display:none;
+}
+
+#news{
+	width:502px;
+	float: left;
+}
+
+div.noticia {
+	border-bottom: solid 1px #1C4D8C;
+	height:235px;
+	padding-bottom:25px;
+	clear:both;
+	//text-align:justify;
+}
+div.noticia img{
+	width:170px;
+	height:195px;
+	float:left;
+	clear:both;
+	margin-right:25px;
+}
+div.noticia .imagem{
+	width:170px;
+	height:195px;
+	float:left;
+	clear:both;
+	margin-right:25px;
+}
+.noticia p.titulo{
+	font-size:18px;
+	font-weight:bolder;
+}
+#news a.saibamais{
+	background-color:#1C4D8C;
+	text-decoration:none;
+	color:#FFFFFF;
+	padding:2px 5px 2px 5px;
+	float:right;
+	margin: -24px 0 10px 0;
+}
+#news .data{
+	//background-color:#1C4D8C;
+	text-decoration:none;
+	color:#1C4D8C;
+	padding:2px 5px 2px 5px;
+	float:left;
+	margin: -24px 0 10px 0;
+}
+#clnoticias{
+	background-color:#d3d3d3;
+	width:222px;
+	min-height:307px;
+	float: right;
+	padding:5px;
+	clear:both;
+}
+#clnoticias ul li{ 
+	display: block;
+	margin-left: 15px;
+}
+#clnoticias a{
+	color:#000;
+	text-decoration:none;
+}
+#noticia {
+	min-height:370;
+	width: 523px;
+	text-align:justify;
+	float:left;
+	border-top: solid 15px #efefef;
+	padding: 10px 20px 0 20px;
+	border-left: dotted 1px #d3d3d3;
+	border-right: dotted 1px #d3d3d3;
+	
+}
+#noticia img{
+	max-height:455px;
+	max-width:455px;
+	margin-left:250px;
+	margin-right:50px;}
+form.noticia { 
+	background-color:#efefef;
+	width:333px;
+	height:27px;
+	float:right;
+	}
+#noticia p.titulo{
+	font-size:24px;
+	
+}
+#noticia p.data{text-align: right;}
+.data font{border-top: solid 1px #1C4D8C;}	
+#faixa6{
+	width:333px;
+	float:right;
+	}	
+#noticia img{ 
+	max-width:98%;
+	margin-left:5px;
+	margin-right:5px;
+	border:solid 2px #666666;
+	}
+#clientes h3,#parceiros h3, #news h3{
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+h3.clientesh{float:left;
+background-color: #d3d3d3;
+}
+#parceiros{
+	height:134px;
+	width:133px;
+	float: right;
+	display:none;
+}
+h3.videoh{float:left;
+margin-left:50px;
+margin-top:-40px;
+
+}
+#video{
+	height:134px;
+	width:133px;
+	float: right;
+	margin-right:200px;
+}
+#video iframe {
+	height:281px;
+	width:281px;}
+#clientes{
+	float:right;
+	margin-bottom:5px;
+	height:334px;
+	width:281px;
+	float: right;
+	padding-left:26px;
+	padding-right:26px;
+	
+}
+
+#clientes img{
+border: solid 6px #a3a3a3;
+}
+
+
+.clientes{
+	border-top: solid 29px #efefef;
+	padding-top:
+	margin-bottom:5px;
+}
+.clientes img{
+	height:213px;
+	width:213px;
+	border: solid 5px #d3d3d3;
+	margin-left:54px;
+	margin-top: 54px;
+	}
+.clientes form{
+	background-color:#d2d2d2;
+	padding:5px;
+	}
+.clientes form input[type=text]{
+	width:300px;
+	font-size:12px;}	
+.clientes form center{font-size:12px;}
+#logo, #menu{
+	margin-left:auto;
+	margin-right:auto;
+	}
+#logo img{ 
+	margin:35px 10px 30px 10px;
+	}
+#empresa #img1 { 
+	float:left; 
+	margin-top:29px;
+	}
+#empresa #img2 { 
+	float:right; margin-right:83px; 
+	margin-top:111px;
+	}
+#empresa #texto1 { 
+        font-size: 14px;
+	float:right; 
+	width:516px; margin-top:29px;
+	height:300px;
+	padding:10px;
+	}
+#empresa #texto2 { 
+	float:left; 
+	width:406px; 
+	height:542px;
+	padding:10px;
+	}
+#conteudo{
+	border-top: solid 29px #efefef;
+}
+#conteudo table{
+	background-color:#d3d3d3;
+	width:446px;
+	height:416px;
+	float: right;
+	}
+#conteudo table tr td{ padding-left:15px;}	
+#conteudo .texto{ 
+float:left;
+	width:280px;
+	//height:139px;
+	margin:10px;
+	border-left: solid 1px #004c8f;
+	padding-left:5px;
+	margin-bottom:40px;
+}
+#conteudo iframe{
+	width:450px;
+	height:499px;
+	
+}
+ p.titulo{
+//float:left;
+font-weight:bold;
+font-size:16px;
+
+}
